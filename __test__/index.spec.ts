@@ -1,9 +1,13 @@
 import test from 'ava'
 
-import { plus100, plus100String } from '../index'
+import { fetcher, plus100, plus100String } from '../index'
 
 test('sync function from native code', (t) => {
   const fixture = 42
   t.is(plus100(fixture), fixture + 100)
   t.is(plus100String(fixture), fixture + 100 + '')
+})
+
+test('sync fetch', (t) => {
+  t.is(fetcher('https://mockbin.org/status/200'), 'OK')
 })

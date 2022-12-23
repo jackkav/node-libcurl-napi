@@ -218,7 +218,8 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { plus100, plus100String } = nativeBinding
+const { fetcher, plus100, plus100String } = nativeBinding
 
+module.exports.fetcher = fetcher
 module.exports.plus100 = plus100
 module.exports.plus100String = plus100String

@@ -6,5 +6,7 @@ mkShell {
         yarn
         rustc
         cargo
+        rust-analyzer
+        cargo-watch
     ];
 }

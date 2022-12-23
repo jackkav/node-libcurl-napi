@@ -12,6 +12,8 @@ crate-type = ["cdylib"]
 [dependencies]
 napi = "2"
 napi-derive = "2"
+curl = "0.4.37"
+openssl = { version = "0.10", features = ["vendored"] }
 
 [build-dependencies]
 napi-build = "2"

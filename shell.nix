@@ -8,5 +8,6 @@ mkShell {
         cargo
         rust-analyzer
         cargo-watch
+        curl
     ];
 }

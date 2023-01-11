@@ -34,6 +34,11 @@ pub fn plus_100(input: u32) -> u32 {
 }
 
 #[napi]
+pub fn plus_101(input: u32) -> u32 {
+  input + 101
+}
+
+#[napi]
 pub fn plus_100_string(input: u32) -> String {
   format!("{}", input + 100)
 }

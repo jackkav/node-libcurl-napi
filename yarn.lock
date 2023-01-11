@@ -98,18 +98,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@napi-rs/cli@npm:^2.13.2":
-  version: 2.14.2
-  resolution: "@napi-rs/cli@npm:2.14.2"
-  bin:
-    napi: scripts/index.js
-  checksum: 8671c95927b7a153cfdc953c17b24ba61149048fbab596632c9f31ee311de01615375461abae7ad59d07ee59b42f60d29fdc3cb089f7def3de4b63956859c8f4
-  languageName: node
-  linkType: hard
-
-"@napi-rs/package-template@workspace:.":
+"@kong/node-libcurl-napi@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@napi-rs/package-template@workspace:."
+  resolution: "@kong/node-libcurl-napi@workspace:."
   dependencies:
     "@napi-rs/cli": ^2.13.2
     "@swc-node/register": ^1.5.4
@@ -130,6 +121,15 @@ __metadata:
     typescript: ^4.9.4
   languageName: unknown
   linkType: soft
+
+"@napi-rs/cli@npm:^2.13.2":
+  version: 2.14.2
+  resolution: "@napi-rs/cli@npm:2.14.2"
+  bin:
+    napi: scripts/index.js
+  checksum: 8671c95927b7a153cfdc953c17b24ba61149048fbab596632c9f31ee311de01615375461abae7ad59d07ee59b42f60d29fdc3cb089f7def3de4b63956859c8f4
+  languageName: node
+  linkType: hard
 
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5

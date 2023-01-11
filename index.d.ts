@@ -5,4 +5,5 @@
 
 export function fetcher(input: string): string
 export function plus100(input: number): number
+export function plus101(input: number): number
 export function plus100String(input: number): string
